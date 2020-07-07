@@ -1,0 +1,27 @@
+:root { 
+    background-color: #add8e6;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+ul {
+    margin-top: 10%;
+    text-align: left;
+    list-style: none;
+}
+
+hr {
+    width: 100px;
+}
+
+li {
+    text-align: center;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffff;
+}
