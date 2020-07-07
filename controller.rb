@@ -11,6 +11,7 @@ get "/films" do
 end
 
 get "/films/:index" do
-    @hello = "Hello"
+    @all_films = Film.all.map { |film| film }
+    @index = params[:index].to_i - 1
     erb(:details)
 end
