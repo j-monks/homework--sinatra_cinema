@@ -80,15 +80,6 @@ film2_showtimes = Screening.show_times(film2.title)
 # WRITE A METHOD THAT FINDS OUT WHAT IS THE MOST POPULAR TIME ( MOST TICKETS SOLD ) FOR A GIVEN FILM
 film2_most_popular_showtime = Screening.most_popular_showtime_by_film(film2.id)
 
-
-film_names = Film.all()
-
-films = film_names.map { |name| name.title }
-
-films.each_with_index do |item, index| 
-    puts "current_index: #{index}"
-end
-
  binding.pry
  nil
 
